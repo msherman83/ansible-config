@@ -1,0 +1,7 @@
+--- # Main config
+- name: Main config running
+  hosts: my-machine
+  user: root
+
+  roles:
+    - common
