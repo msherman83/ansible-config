@@ -1,7 +1,10 @@
 --- # Main config
 - name: Main config running
   hosts: my-machine
-  user: root
+  user: msherman
+  become: yes
+  become_method: sudo
+  gather_facts: yes 
 
   roles:
     - common
