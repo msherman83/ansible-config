@@ -1,0 +1,14 @@
+---
+- name: Update package lists
+  package: update_cache=yes
+
+- name: Install packages
+  packages: name={{ item }} state=present
+  with items:
+#    - tmux
+#    - vim
+#    - ranger
+#    - joplin
+#    - teamviewer
+#    - firefox
+    - htop  
