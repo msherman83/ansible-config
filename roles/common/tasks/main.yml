@@ -3,8 +3,8 @@
   package: update_cache=yes
 
 - name: Install packages
-  packages: name={{ item }} state=present
-  with items:
+  package: name={{ item }} state=present
+  with_items:
 #    - tmux
 #    - vim
 #    - ranger

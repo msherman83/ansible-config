@@ -1,5 +1,5 @@
 --- # Main config
-- name: Main config running
+- name: main config running
   hosts: my-machine
   user: msherman
   become: yes
