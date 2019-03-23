@@ -1,6 +1,6 @@
 --- # Main config
 - name: main config running
-  hosts: my-machine
+  hosts: localhost 
   user: msherman
   become: yes
   become_method: sudo

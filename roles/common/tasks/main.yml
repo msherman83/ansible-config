@@ -1,14 +1,20 @@
----
+--- # Main packages to install on every build.
 - name: Update package lists
   package: update_cache=yes
 
 - name: Install packages
   package: name={{ item }} state=present
   with_items:
-#    - tmux
-#    - vim
-#    - ranger
+    - tmux
+    - vim
+    - ranger
+    - tlp
+    - powertop
+    - vifm
+    - qownnotes
+    - riot
+    - telegram
 #    - joplin
 #    - teamviewer
-#    - firefox
+    - firefox
     - htop  
