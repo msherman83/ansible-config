@@ -18,4 +18,6 @@
 #    - teamviewer
 #    - firefox
     - htop 
-    - fish 
+    - fish
+    - curl
+    - wget 
