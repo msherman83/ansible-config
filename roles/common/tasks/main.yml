@@ -11,10 +11,11 @@
     - tlp
     - powertop
     - vifm
-    - qownnotes
-    - riot
+#   - qownnotes
+    - riot-web
     - telegram
 #    - joplin
 #    - teamviewer
-    - firefox
-    - htop  
+#    - firefox
+    - htop 
+    - fish 
